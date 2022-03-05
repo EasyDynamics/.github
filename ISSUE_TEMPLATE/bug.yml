@@ -13,6 +13,16 @@ body:
       validations:
         required: true
 
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      description: >-
+        If the issue is ocurring in a particular environment, please provide its
+        name or URL
+      validations:
+        required: false
+
   - type: textarea
     id: reproduction
     attributes:
