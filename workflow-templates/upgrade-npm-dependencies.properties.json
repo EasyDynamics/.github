@@ -1,0 +1,11 @@
+{
+    "name": "Upgrade NPM dependencies workflow",
+    "description": "Batch updates for NPM dependencies daily using npm-check-updates",
+    "categories": [
+        "JavaScript",
+        "TypeScript"
+    ],
+    "filePatterns": [
+        "package.json$"
+    ]
+}
